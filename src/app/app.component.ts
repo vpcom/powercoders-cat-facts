@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FactService } from './fact.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,13 +8,12 @@ import { FactService } from './fact.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Cat Facts';
+  public title = 'Cat Facts';
+  public factList$: Observable<any>
 
   constructor(private factService: FactService) { }
 
   ngOnInit() { 
-    this.factService.getFacts().subscribe(factList => {
-      console.log(factList);
-    });
+    this.factList$ = this.factService.getFacts();
   }
 }
