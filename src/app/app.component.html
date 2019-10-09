@@ -3,16 +3,20 @@
   <h1>{{ title }}</h1>
 </div>
 
-<div class="list-wrapper">
+<div class="">
   <div *ngIf="factList$ | async as factList">
-      Number of facts: {{ factList.all.length }}
-      <div *ngFor="let fact of factList.all">
-        <div>
+    Number of facts: {{ factList.all.length }}
+    <div *ngFor="let fact of factList.all">
+
+      <mat-card class="">
+        <div class="">
           <h3>{{ fact.user.name.first }} {{ fact.user.name.last }} - Up vote: {{ fact.upvotes }}</h3>
           <p>
               {{ fact.text }}
           </p>
         </div>
-      </div>
+      </mat-card>
+      
+    </div>
   </div>
 </div>
