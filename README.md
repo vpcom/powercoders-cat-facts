@@ -1,27 +1,32 @@
 # CatFacts
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+This project was made for powercoders.org to help beginners learn Angular with a simple web application going through many basic things like:
+- Angular CLI
+- HttpClient
+- Angular Material
+- Services
+- *ngIf
+- *ngFor
+- Observables
+
+Thanks to this, they have the basics to build a real Angular app and the discover more lateral knowledge.
+
+Demo: http://vincentperrin.com/powercoders/cat-facts/
+Resources: http://vincentperrin.com/powercoders/
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Credit
 
-## Running end-to-end tests
+Alex Wohlbruck for his inspiring Cat Facts app and the corresponding API. See https://cat-fact.herokuapp.com
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Copyright
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Yes, you are allowed to copy, but don't forget to think about what you copy!
