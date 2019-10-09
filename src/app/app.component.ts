@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FactService } from './fact.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cat-facts';
+  title = 'Cat Facts';
+
+  constructor(private factService: FactService) { }
+
+  ngOnInit() { 
+    this.factService.getFacts().subscribe(factList => {
+      console.log(factList);
+    });
+  }
 }
