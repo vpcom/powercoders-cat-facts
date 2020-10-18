@@ -1,6 +1,6 @@
 # CatFacts
 
-This project was made for powercoders.org to help beginners learn Angular with a simple web application going through many basic things like:
+This project was made to help beginners learn Angular with a simple web application going through many basic things like:
 - Angular CLI
 - HttpClient
 - Angular Material
