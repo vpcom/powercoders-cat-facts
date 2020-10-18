@@ -11,8 +11,7 @@ This project was made for powercoders.org to help beginners learn Angular with a
 
 Thanks to this, they have the basics to build a real Angular app and the discover more lateral knowledge.
 
-Demo: http://vincentperrin.com/powercoders/cat-facts/
-Resources: http://vincentperrin.com/powercoders/
+Demo: http://vincentperrin.com/demos/cat-facts/
 
 ## Development server
 
